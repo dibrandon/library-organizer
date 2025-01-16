@@ -11,3 +11,10 @@
     background-color: var(--dark-blue);
     color: var(--light-cyan);
   }
+
+.container-user-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+}
