@@ -22,20 +22,24 @@
     </header>
 
     <div class="container-user-area">
-    <form action="login">
-        <h2>Login</h2>
-        <p>Usuario</p>
-        <input type="text" name="user" id="user">
-        <p>Contraseña</p>
-        <input type="password" name="password" id="password">
-        <button type="submit">Ingresar</button>
-    </form>
+        <section class="user-area">
+            <form class="form-container" action="login" method="post">
+                <h2>Login</h2>
+                <label for="user">Usuario</label>
+                <input type="text" name="user" id="user" required>
+                <label for="password">Contraseña</label>
+                <input type="password" name="password" id="password" required>
+                <button type="submit">Ingresar</button>
+            </form>
+        </section>
+        
+            <ul class="user-area-links">
+                <li><a href="recuperar.html">Recuperar contraseña</a></li>
+                <li><a href="registro.html">Registrarse</a></li>
+            </ul>
+        
     </div>
-    <ul>
-        <li><a href="recuperar.html">Recuperar contraseña</a></li>
-        <li><a href="registro.html">Registrarse</a></li>
-    </ul>
-
+    
    
 
     <footer>
