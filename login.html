@@ -1,32 +1,37 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Organiza y Clasifica tus Libros con Nuestra WebApp"</title>
 </head>
+
 <body>
-<div class="flex-container">
-    <header>
-        
-        <nav>
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="biblioteca.html">Biblioteca</a></li>
-                <li><a href="login.html">Login</a></li>
-            </ul>
-        </nav>
+    <div class="flex-container">
 
-        <h1>Tu Biblioteca: Organiza y Clasifica tus Libros</h1>
-    </header>
+        <header class="flex-wrapper">
 
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="biblioteca.html">Biblioteca</a></li>
+                    <li><a href="login.html">Login</a></li>
+                </ul>
+            </nav>
 
-<div class="flex-wrapper">
-    <div class="container-user-area">
-        <div class="flex-container">
+            <h1>Tu Biblioteca: Organiza y Clasifica tus Libros</h1>
+
+        </header>
+
+        <div class="ejemplo">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti iure quidem, debitis iste praesentium odit voluptates. Quod alias commodi praesentium repudiandae quam eligendi, tenetur autem impedit obcaecati omnis? Culpa, quidem.</p>
+        </div>
+
+        <div class="container-user-area">
             <section>
-                <form action="login" method="post">
+                <form class="login-form" action="login" method="post">
                     <h2>Login</h2>
                     <label for="user">Usuario</label>
                     <input type="text" name="user" id="user" required>
@@ -35,23 +40,21 @@
                     <button type="submit">Ingresar</button>
                 </form>
 
-            <ul class="user-area-links">
-                <li><a href="recuperar.html">Recuperar contraseña</a></li>
-                <li><a href="registro.html">Registrarse</a></li>
-            </ul>
+                <ul class="user-area-links">
+                    <li><a href="recuperar.html">Recuperar contraseña</a></li>
+                    <li><a href="registro.html">Registrarse</a></li>
+                </ul>
             </section>
         </div>
+
+
+        <footer>
+            <p>Desarrollado por <a href="https://github.com/dibrandon">Alejandro</a></p>
+            <p>2025.</p>
+        </footer>
+
+
     </div>
-</div>
-    
-   
-
-    <footer>
-        <p>Desarrollado por <a href="https://github.com/dibrandon">Alejandro</a></p>
-        <p>2025.</p>
-    </footer>
-
-
-</div>
 </body>
+
 </html>

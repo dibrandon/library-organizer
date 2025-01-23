@@ -6,12 +6,11 @@
     --light-cyan: #CEF2F2;
   }
 
-html, body {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-}
-
+  *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
   body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: var(--dark-blue);
@@ -20,8 +19,6 @@ html, body {
 
   ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
     overflow: hidden;
   }
   
@@ -37,22 +34,35 @@ html, body {
   .flex-container{
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
 
   .flex-wrapper{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    background-color: red;
+    border: 1px solid red;
+  }
+
+  .ejemplo{
+    color: red;
+    border: 1px solid red;
+    padding: 2em;
+  }
+
+  .login-form{
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
   }
 
 .container-user-area{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-self: center;
-    height: 100vh;
-    max-width: 300px;
+    height: 50vh;
+    width: 90%;
+    max-width: 450px;
     background-color: var(--light-blue);
   }
 
